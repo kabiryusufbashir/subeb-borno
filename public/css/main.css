@@ -1,0 +1,356 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "PoppinsBold";
+    src: url("../fonts/Poppins/Poppins-ExtraBold.ttf");
+}
+
+body{
+    font-family: "Poppins";
+}
+
+#banner-img{
+    position: relative;
+    top: 90px;
+}
+
+/* DropDown  */
+nav ul {
+	padding: 0;
+    margin: 0;
+	list-style: none;
+	position: relative;
+}
+	
+nav ul li {
+	display:inline-block;
+}
+
+nav a {
+	display:block;
+	padding:0 10px;	
+	text-decoration:none;
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 30px; /* the height of the main nav */
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:170px;
+}
+
+/* Social Media  */
+#social-links ul{
+    padding-left: 0;
+}
+#social-links ul li {
+    display: inline-block;
+} 
+#social-links ul li a {
+    padding: 6px;
+    border-radius: 5px;
+    margin: 1px;
+    font-size: 20px;
+}
+#social-links .fa-facebook{
+     color: #0d6efd;
+}
+#social-links .fa-twitter{
+     color: deepskyblue;
+}
+#social-links .fa-linkedin{
+     color: #0e76a8;
+}
+#social-links .fa-whatsapp{
+    color: #25D366
+}
+#social-links .fa-reddit{
+    color: #FF4500;;
+}
+
+#social-links .fa-telegram{
+    color: #0088cc;
+}
+
+#container{
+    width: 100%;
+    float: left;
+}
+
+#nav .fas{
+    font-size: 20px;
+}
+
+#nav{
+    font-size: 14px;
+}
+
+.fas{
+    font-size: 28px;
+    color: white;
+}
+
+/* #footer{
+    background: #c4930a;
+} */
+
+#container-nav{
+    width: 100%;
+    float: left;
+}
+
+#container-one{
+    width: 15%;
+    float: left;
+}
+
+#container-two{
+    width: 60%;
+    float: left;
+}
+
+#container-three{
+    width: 25%;
+    float: left;
+}
+
+
+
+#slogan{
+    font-size: 200%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.slogan-logo{
+    animation: logo 5s ease forwards;
+}
+
+
+@keyframes logo{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+/* Slider  */
+.mySlides{
+    width: 100%;
+}
+
+#firstCaption{
+    background-image: url("../images/bg-2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#secondCaption{
+    background-image: url("../images/bg-5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#thirdCaption{
+    background-image: url("../images/bg-3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#fourthCaption{
+    background-image: url("../images/bg-6.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.firstCaptionContent{
+    font-size: 230%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 900;
+    font-family: "PoppinsBold";
+    animation: firstCaption ease-out 4s forwards;
+}
+
+.slideBtn{
+    width: 15%;
+    background-color: #1e3a8a;
+    text-align: center;
+    padding: 1% 2%;
+    margin-left: 5%;
+    color: #fff;
+    border-radius: 10px;
+    font-family: "PoppinsBold";
+}
+
+.secondCaptionContent{
+    font-size: 230%;
+    margin-left: 32%;
+    padding-top: 7%;
+    font-weight: 900;
+    font-family: "PoppinsBold";
+    animation: secondCaption ease-out 4s forwards;
+}
+
+@keyframes firstCaption{
+    33.33% {
+        padding-top: 1%;
+        padding-left: 5%;
+    }
+    66.66% {
+        padding-top: 3%;
+        padding-left: 5%;
+    }
+    99.99% {
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+}
+
+@keyframes secondCaption{
+    33.33% {
+        padding-top: 5%;
+    }
+    66.66% {
+        padding-top: 8%;
+    }
+    99.99% {
+        padding-top: 7%;
+    }
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border: 1px solid green;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+  
+  /* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 2% 2%;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    transition: 0.4s;
+    border: 1px solid green;
+}
+
+@media only screen and (max-width:768px)
+{
+    body{
+        font-size: 80%;
+    }
+
+    #logoImg{
+        width: 30%;
+        margin-left: 90%;
+    }
+    
+    #banner-img{
+        position: relative;
+        top: 80px;
+    }
+
+    #firstCaption{
+        background-image: url("../images/bg-2-mobile.jpg");
+    }
+
+    #secondCaption{
+        background-image: url("../images/bg-5-mobile.jpg");
+    }
+
+    #thirdCaption{
+        background-image: url("../images/bg-3-mobile.jpg");
+    }
+    
+    #container-one{
+        width: 100%;
+        float: left;
+    }
+
+    #secondCaption, #thirdCaption{
+        display: block;
+    }
+    
+    .slideBtn{
+        width: 40%;
+        padding: 4% 2%;
+        margin-left: 5%;
+        border-radius: 10px;
+    }
+
+    
+    #firstCaption, #secondCaption, #thirdCaption,  #fourthCaption{
+        height: 60vh;
+    }
+
+    #navMobile{
+        position: fixed;
+    }
+
+    .firstCaptionContent{
+        padding-top: 50%;
+        font-size: 20px;
+        animation: firstCaptionNone;
+    }
+    
+    .secondCaptionContent{
+        margin-left: 10%;
+        padding-top: 40%;
+        font-size: 20px;
+    }
+
+    #slogan{
+        display: none;
+    }
+
+    footer{
+        font-size: 70%;
+    }
+}
