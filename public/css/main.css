@@ -168,117 +168,44 @@ nav ul ul ul li {
 }
 
 #firstCaption{
-    background-image: url("../images/bg-2.jpg");
+    background-image: url("../images/bg-1.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 #secondCaption{
-    background-image: url("../images/bg-5.jpg");
+    background-image: url("../images/bg-8.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 #thirdCaption{
-    background-image: url("../images/bg-3.jpg");
+    background-image: url("../images/bg-4.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 #fourthCaption{
-    background-image: url("../images/bg-6.jpg");
+    background-image: url("../images/bg-3.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 .firstCaptionContent{
-    font-size: 230%;
+    font-size: 280%;
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
     font-weight: 900;
     font-family: "PoppinsBold";
-    animation: firstCaption ease-out 4s forwards;
-}
-
-.slideBtn{
-    width: 15%;
-    background-color: #1e3a8a;
-    text-align: center;
-    padding: 1% 2%;
-    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #fff;
-    border-radius: 10px;
-    font-family: "PoppinsBold";
-}
-
-.secondCaptionContent{
-    font-size: 230%;
-    margin-left: 32%;
-    padding-top: 7%;
-    font-weight: 900;
-    font-family: "PoppinsBold";
-    animation: secondCaption ease-out 4s forwards;
-}
-
-@keyframes firstCaption{
-    33.33% {
-        padding-top: 1%;
-        padding-left: 5%;
-    }
-    66.66% {
-        padding-top: 3%;
-        padding-left: 5%;
-    }
-    99.99% {
-        padding-top: 5%;
-        padding-left: 5%;
-    }
-}
-
-@keyframes secondCaption{
-    33.33% {
-        padding-top: 5%;
-    }
-    66.66% {
-        padding-top: 8%;
-    }
-    99.99% {
-        padding-top: 7%;
-    }
-}
-
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    border: 1px solid green;
-  }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-    background-color: #ccc;
-}
-  
-  /* Style the accordion panel. Note: hidden by default */
-.panel {
-    padding: 2% 2%;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-    transition: 0.4s;
-    border: 1px solid green;
 }
 
 @media only screen and (max-width:768px)
