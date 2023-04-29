@@ -150,6 +150,11 @@
                 </div>
             </div>
         </div>
-        @yield('body-content')
+        
+        <!-- Body Content  -->
+        <div class="relative">
+            @yield('body-content')
+        </div>
+        <!-- End of Body Content  -->
     </body>
 </html>
