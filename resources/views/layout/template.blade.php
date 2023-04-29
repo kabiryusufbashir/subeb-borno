@@ -12,7 +12,7 @@
     </head>
     <body>
         <!-- Contact Info  -->
-        <div class="flex justify-between text-white py-3 border-b lg:px-48 px-8 items-center bg-green-700">
+        <div class="flex justify-between text-white py-3 border-b lg:px-48 px-8 items-center bg-green-700 text-sm">
             <div class="flex">
                 <span class="hidden ml-2 lg:block">
                     <span><i class="fa-solid fa-envelope"></i></span>
@@ -156,5 +156,101 @@
             @yield('body-content')
         </div>
         <!-- End of Body Content  -->
+
+        <!-- Footer  -->
+        <div class="relative top-12">
+            <div id="footer" class="bg-gray-100 py-12 px-8 lg:px-24 lg:grid grid-cols-4 gap-8 text-gray-900">
+                <div class="col-span-2 mb-3 flex lg:pt-12">
+                    <div class="pt-5">
+                        <img class="w-48 lg:w-48" src="{{ asset('images/logo.png') }}" alt="Borno SUBEB Logo">
+                    </div>
+                    <div class="ml-4">
+                        <p class="my-2">
+                            Borno State Universal Basic Education Board was established pursuant to the Borno State Compulsory Free Universal Basic Education Law 2005.
+                        </p>
+                        <p>
+                            The scheme was introduced with the aim of providing free, universal and basic education for every Nigerian child between the ages of 6 and 15. 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-span-1">
+                    <div>
+                        <h1 class="text-2xl font-bold mb-4">Navigations</h1>
+                        <nav class="list-none text-gray-900">
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="#">
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="#">
+                                    <span>About Us</span>
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="#">
+                                    <span>Departments</span>
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="#">
+                                    <span>Reports</span>
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="#">
+                                    <span>Media</span>
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="#">
+                                    <span>Contact Us</span>
+                                </a>
+                            </li>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-span-1">    
+                    <div>
+                        <h1 class="text-2xl font-bold mb-4">Contact Us</h1>
+                        <div class="my-2">
+                            P.M.B 1233, No 1 Jos Road Maiduguri Borno State 
+                        </div>
+                        <div class="my-2">
+                            info@bornosubeb.com
+                        </div>
+                        <nav class="list-none text-gray-900 flex">
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="#">
+                                    <span><i class="fa-brands fa-facebook text-xl"></i></span> &nbsp;&nbsp;
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="#">
+                                    <span><i class="fa-brands fa-twitter text-xl"></i></span> &nbsp;&nbsp;
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="#">
+                                    <span><i class="fa-brands fa-linkedin text-xl"></i></span> &nbsp;&nbsp;
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="#">
+                                    <span><i class="fa-brands fa-instagram text-xl"></i></span> &nbsp;&nbsp;
+                                </a>
+                            </li>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="py-7 text-center text-xs bg-green-700 text-white">
+                <footer>
+                    Designed and Developed By <a href="https://teampiccolo.com">Team Piccolo</a> <br>
+                    Copyright © @php echo date('Y') @endphp Borno State Universal Basic Board. All Rights Reserved 
+                </footer>
+            </div>
+        </div>
+        <!-- End of Footer  -->
     </body>
 </html>
