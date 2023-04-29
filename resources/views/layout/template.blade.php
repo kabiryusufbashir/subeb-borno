@@ -21,9 +21,6 @@
             </div>
             <div class="flex items-center">
                 <span class="ml-2">
-                    Follow Us:
-                </span>
-                <span class="ml-2">
                     <a class="flex items-center py-1" target="_blank" href="#">
                         <span><i class="fa-brands fa-facebook text-xl"></i></span>
                     </a>
@@ -62,25 +59,18 @@
             <div id="container-two" class="hidden lg:block mx-auto">
                 <nav>
                     <ul class="lg:flex list-none font-medium items-center">
-                        <li class="mx-1 {{ ($page_title == 'home') ? 'text-green-700 border-b-2 font-semibold border-green-600' : '' }}  py-1 hover:text-green-600 dropdown relative hover:border-b-2 hover:border-green-600">
-                            <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="mx-1 {{ ($page_title == 'Home - Borno SUBEB') ? 'text-green-700 border-b-2 font-semibold border-green-600' : '' }}  py-1 hover:text-green-600 dropdown relative hover:border-b-2 hover:border-green-600">
+                            <a class="flex" href="/" >
                                 Home
                             </a>
                         </li>
-                        <li class="mx-1 {{ ($page_title == 'home') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
-                            <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="mx-1 {{ ($page_title == 'About Us - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
+                            <a class="flex" href="{{ route('about-us') }}">
                                 About Us
                             </a>
-                            <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
-                                <li>
-                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                        Our Company
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
                         <li class="mx-1 {{ ($page_title == 'Our Services - Police HMO - Promoting Excellent Healthcare') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
-                            <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="flex" href="#">
                                 Departments
                             </a>
                             <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
@@ -92,7 +82,7 @@
                             </ul>
                         </li>
                         <li class="mx-1 {{ ($page_title == 'Our Services - Police HMO - Promoting Excellent Healthcare') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
-                            <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="flex" href="#" >
                                 Reports
                             </a>
                             <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
@@ -104,7 +94,7 @@
                             </ul>
                         </li>
                         <li class="mx-1 {{ ($page_title == 'media') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
-                            <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="flex" href="#" >
                                 Media
                             </a>
                             <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
@@ -152,7 +142,7 @@
         </div>
         
         <!-- Body Content  -->
-        <div class="relative">
+        <div>
             @yield('body-content')
         </div>
         <!-- End of Body Content  -->

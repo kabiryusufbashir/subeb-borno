@@ -29,10 +29,15 @@ nav ul li {
 	display:inline-block;
 }
 
+nav ul li:hover{
+    cursor: pointer;
+}
+
 nav a {
 	display:block;
 	padding:0 10px;	
 	text-decoration:none;
+    cursor: pointer;
 }
 
 /* Hide Dropdowns by Default */
