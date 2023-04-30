@@ -15,29 +15,29 @@
         <div class="flex justify-between text-white py-3 border-b lg:px-48 px-8 items-center bg-green-700 text-sm">
             <div class="flex">
                 <span class="hidden ml-2 lg:block">
-                    <span><i class="fa-solid fa-envelope"></i></span>
+                    <span><i class="fa-solid fa-envelope bg-white py-2 px-3 rounded-full text-green-700 text-xl"></i></span>
                     <span class="ml-1"><a href="mailto:info@bornosubeb.com">info@bornosubeb.com</a></span>
                 </span>
             </div>
             <div class="flex items-center">
                 <span class="ml-2">
                     <a class="flex items-center py-1" target="_blank">
-                        <span><i class="fa-brands fa-facebook text-xl"></i></span>
+                        <span><i class="fa-brands fa-facebook text-xl bg-white py-2 px-3 rounded-full text-green-700"></i></span>
                     </a>
                 </span>
                 <span class="ml-2">
                     <a class="flex items-center py-1" target="_blank">
-                        <span><i class="fa-brands fa-twitter text-xl"></i></span>
+                        <span><i class="fa-brands fa-twitter text-xl bg-white py-2 px-3 rounded-full text-green-700"></i></span>
                     </a>
                 </span>
                 <span class="ml-2">
                     <a class="flex items-center py-1" target="_blank">
-                        <span><i class="fa-brands fa-linkedin text-xl"></i></span>
+                        <span><i class="fa-brands fa-linkedin text-xl bg-white py-2 px-3 rounded-full text-green-700"></i></span>
                     </a>
                 </span>
                 <span class="ml-2">
                     <a class="flex items-center py-1" target="_blank">
-                        <span><i class="fa-brands fa-instagram text-xl"></i></span>
+                        <span><i class="fa-brands fa-instagram text-xl bg-white py-2 px-3 rounded-full text-green-700"></i></span>
                     </a>
                 </span>
             </div>
@@ -203,22 +203,22 @@
                         <nav class="list-none text-gray-900 flex">
                             <li class="py-1 hover:text-gray-800">
                                 <a class="flex items-center py-1">
-                                    <span><i class="fa-brands fa-facebook text-xl"></i></span> &nbsp;&nbsp;
+                                    <span><i class="fa-brands fa-facebook text-xl bg-white py-2 px-3 rounded-full text-green-700"></i></span> &nbsp;&nbsp;
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
                                 <a class="flex items-center py-1">
-                                    <span><i class="fa-brands fa-twitter text-xl"></i></span> &nbsp;&nbsp;
+                                    <span><i class="fa-brands fa-twitter text-xl bg-white py-2 px-3 rounded-full text-green-700"></i></span> &nbsp;&nbsp;
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
                                 <a class="flex items-center py-1">
-                                    <span><i class="fa-brands fa-linkedin text-xl"></i></span> &nbsp;&nbsp;
+                                    <span><i class="fa-brands fa-linkedin text-xl bg-white py-2 px-3 rounded-full text-green-700"></i></span> &nbsp;&nbsp;
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
                                 <a class="flex items-center py-1">
-                                    <span><i class="fa-brands fa-instagram text-xl"></i></span> &nbsp;&nbsp;
+                                    <span><i class="fa-brands fa-instagram text-xl bg-white py-2 px-3 rounded-full text-green-700"></i></span> &nbsp;&nbsp;
                                 </a>
                             </li>
                         </nav>

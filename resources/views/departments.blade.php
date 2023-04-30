@@ -18,7 +18,7 @@
     <!-- Body Contents  -->
     <div id="body-content" class="pt-8 pb-5 text-justify">
         <!-- DIRECTORATE OF SCHOOL SERVICES -->
-        <div id="directorateOfSchoolServices" class="lg:mx-24 mx-8 p-8 mb-12 bg-gray-100">
+        <div id="directorateOfSchoolServices" class="lg:mx-24 mx-8 p-8 mb-12 bg-gray-100 shadow rounded-lg">
             <div class="text-2xl lg:text-3xl font-semibold py-4 text-green-700">
                 DIRECTORATE OF SCHOOL SERVICES
             </div>
@@ -73,7 +73,7 @@
             </div>
         </div>
         <!-- DIRECTORATE OF FINANCE AND ACCOUNTS -->
-        <div id="directorateOfFinanceAndAccounts" class="lg:mx-24 mx-8 p-8 mb-12 bg-gray-100">
+        <div id="directorateOfFinanceAndAccounts" class="lg:mx-24 mx-8 p-8 mb-12 bg-gray-100 shadow rounded-lg">
             <div class="text-2xl lg:text-3xl font-semibold py-4 text-green-700">
                 DIRECTORATE OF FINANCE AND ACCOUNTS
             </div>
