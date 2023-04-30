@@ -76,11 +76,11 @@ nav ul ul ul li {
 
 /* Yusuf Classes  */
 .yus-border-left{
-    border-left: 4px solid green;
+    border-left: 4px solid #15803d;
 }
 
 .yus-border-right{
-    border-right: 4px solid green;
+    border-right: 4px solid #15803d;
 }
 
 /* Social Media  */
@@ -188,49 +188,49 @@ nav ul ul ul li {
 
 #firstCaption{
     background-image: url("../images/bg-1.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 #secondCaption{
     background-image: url("../images/bg-8.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 #thirdCaption{
     background-image: url("../images/bg-4.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 #fourthCaption{
     background-image: url("../images/bg-3.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 #aboutBornoSubeb{
     background-image: url("../images/bg-2.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 #departmentsBornoSubeb{
     background-image: url("../images/bg-6.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 #contactUsBornoSubeb{
     background-image: url("../images/bg-7.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -278,20 +278,46 @@ nav ul ul ul li {
     }
     
     #banner-img{
+        height: 100vh;
+    }
+
+    #contactInfo{
+        position: fixed;
+        width: 100%;
+    }
+
+    #container-one{
         position: relative;
-        top: 80px;
+        top: 450px;
+        right: 80px;
     }
 
     #firstCaption{
-        background-image: url("../images/bg-2-mobile.jpg");
+        background-image: url("../images/bg-1.jpg");
     }
-
+    
     #secondCaption{
-        background-image: url("../images/bg-5-mobile.jpg");
+        background-image: url("../images/bg-8.jpg");
     }
-
+    
     #thirdCaption{
-        background-image: url("../images/bg-3-mobile.jpg");
+        background-image: url("../images/bg-4.jpg");
+    }
+    
+    #fourthCaption{
+        background-image: url("../images/bg-3.jpg");
+    }
+    
+    #aboutBornoSubeb{
+        background-image: url("../images/bg-2.jpg");
+    }
+    
+    #departmentsBornoSubeb{
+        background-image: url("../images/bg-6.jpg");
+    }
+    
+    #contactUsBornoSubeb{
+        background-image: url("../images/bg-7.jpg");
     }
     
     #container-one{
@@ -299,35 +325,11 @@ nav ul ul ul li {
         float: left;
     }
 
-    #secondCaption, #thirdCaption{
-        display: block;
-    }
-    
-    .slideBtn{
-        width: 40%;
-        padding: 4% 2%;
-        margin-left: 5%;
-        border-radius: 10px;
-    }
-
-    
-    #firstCaption, #secondCaption, #thirdCaption,  #fourthCaption{
-        height: 60vh;
-    }
-
     #navMobile{
         position: fixed;
     }
 
     .firstCaptionContent{
-        padding-top: 50%;
-        font-size: 20px;
-        animation: firstCaptionNone;
-    }
-    
-    .secondCaptionContent{
-        margin-left: 10%;
-        padding-top: 40%;
         font-size: 20px;
     }
 

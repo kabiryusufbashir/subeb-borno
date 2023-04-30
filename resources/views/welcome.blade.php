@@ -15,10 +15,10 @@
         <div class="bg-white py-8">
             <!-- Logo  -->
             <div>
-                <img src="{{ asset('images/logo.png') }}" class="mx-auto w-32"> 
+                <img src="{{ asset('images/logo.png') }}" class="mx-auto lg:w-32 w-24"> 
             </div>
             <!-- Slogan  -->
-            <div class="text-center text-4xl py-8 text-green-700">
+            <div class="text-center lg:text-4xl text-xl py-8 text-green-700">
                 Borno State Universal Basic Education Board
             </div>
         </div>

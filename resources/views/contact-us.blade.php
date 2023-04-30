@@ -18,7 +18,7 @@
     <!-- Body Contents  -->
     <div id="body-content" class="text-justify">
         <!-- Contact Info -->
-        <div class="lg:mx-24 mx-8 p-8 mb-12 yus-border-left">
+        <div class="lg:mx-24 mx-8 mt-8 p-8 mb-12 yus-border-left">
             <div class="text-2xl lg:text-3xl font-semibold py-4 text-green-700">
                 Get In Touch
             </div>
