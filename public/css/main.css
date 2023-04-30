@@ -17,8 +17,7 @@ body{
 }
 
 #banner-img{
-    position: relative;
-    top: 90px;
+    background-color: transparent;
 }
 
 /* DropDown  */
@@ -215,6 +214,20 @@ nav ul ul ul li {
     height: 100vh;
 }
 
+#aboutBornoSubeb{
+    background-image: url("../images/bg-2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#departmentsBornoSubeb{
+    background-image: url("../images/bg-6.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 .firstCaptionContent{
     font-size: 280%;
     padding-top: 5%;
@@ -226,6 +239,24 @@ nav ul ul ul li {
     align-items: center;
     justify-content: center;
     color: #fff;
+    animation: firstCaption ease-out 4s forwards;
+    text-align: center;
+}
+
+
+@keyframes firstCaption{
+    33.33% {
+        padding-top: 1%;
+        padding-left: 5%;
+    }
+    66.66% {
+        padding-top: 3%;
+        padding-left: 5%;
+    }
+    99.99% {
+        padding-top: 5%;
+        padding-left: 5%;
+    }
 }
 
 @media only screen and (max-width:768px)

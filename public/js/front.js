@@ -1,3 +1,4 @@
+// Toggle 
 let menu = document.querySelector('#menu');
 let navDesktop = document.querySelector('#navDesktop');
 let navMobile = document.querySelector('#navMobile');

@@ -5,15 +5,18 @@
 @endsection
 
 @section('body-content')
-    <!-- Body Contents  -->
-    <div id="body-content" class="pt-8 pb-5 text-justify">
-        <!-- Title  -->
-        <div class="bg-white py-8">
-            <!-- Slogan  -->
-            <div class="text-center text-2xl lg:text-4xl font-semibold py-4 mb-5 mt-20">
-                About Borno <br> State Universal Basic Education Board
+    <!-- Banner -->
+    <div id="banner-img">
+        <div class="mySlides">
+            <div id="aboutBornoSubeb">
+                <div class="firstCaptionContent text-center">
+                    About Borno <br> State Universal Basic Education Board
+                </div>
             </div>
         </div>
+    </div>
+    <!-- Body Contents  -->
+    <div id="body-content" class="pt-8 pb-5 text-justify">
         <!-- About Us  -->
         <div class="lg:mx-24 mx-8 p-8 mb-12 bg-gray-100">
             <div class="my-auto">

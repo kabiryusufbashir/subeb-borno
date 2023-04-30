@@ -43,7 +43,7 @@
             </div>
         </div>
         <!-- NavBar  -->
-        <div id="container-nav" class="flex justify-between items-center pt-1 pb-5 lg:px-48 px-8 shadow">
+        <div id="container-nav" class="flex justify-between items-center py-5 lg:px-48 px-8">
             <div id="container-one" class="flex justify-between w-full items-center">
                 <div id="menu" class="lg:hidden cursor-pointer lg:ml-auto">
                     <svg class="w-6 h-6 text-blue-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
@@ -59,17 +59,17 @@
             <div id="container-two" class="hidden lg:block mx-auto">
                 <nav>
                     <ul class="lg:flex list-none font-medium items-center">
-                        <li class="mx-1 {{ ($page_title == 'Home - Borno SUBEB') ? 'text-green-700 border-b-2 font-semibold border-green-600' : '' }}  py-1 hover:text-green-600 dropdown relative hover:border-b-2 hover:border-green-600">
+                        <li class="mx-1 {{ ($page_title == 'Home - Borno SUBEB') ? 'text-green-700 border-b-2 font-semibold border-green-600' : '' }}  py-1 hover:text-green-600 text-white dropdown relative hover:border-b-2 hover:border-green-600">
                             <a class="flex" href="/" >
                                 Home
                             </a>
                         </li>
-                        <li class="mx-1 {{ ($page_title == 'About Us - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
+                        <li class="mx-1 {{ ($page_title == 'About Us - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-white dropdown relative hover:border-b-2 hover:border-green-600">
                             <a class="flex" href="{{ route('about-us') }}">
                                 About Us
                             </a>
                         </li>
-                        <li class="mx-1 {{ ($page_title == 'Departments - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
+                        <li class="mx-1 {{ ($page_title == 'Departments - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-white dropdown relative hover:border-b-2 hover:border-green-600">
                             <a class="flex" href="{{ route('departments') }}">
                                 Departments
                             </a>
@@ -102,44 +102,17 @@
                                 
                             </ul>
                         </li>
-                        <li class="mx-1 {{ ($page_title == 'Reports - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
+                        <li class="mx-1 {{ ($page_title == 'Reports - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-white dropdown relative hover:border-b-2 hover:border-green-600">
                             <a class="flex" >
                                 Reports
                             </a>
                         </li>
-                        <li class="mx-1 {{ ($page_title == 'Media - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
+                        <li class="mx-1 {{ ($page_title == 'UNICEF - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-white dropdown relative hover:border-b-2 hover:border-green-600">
                             <a class="flex" >
-                                Media
+                                UNICEF
                             </a>
-                            <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
-                                <li>
-                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                                        News
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                                        Gallery
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                                        Publications
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                                        Testimonials
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                                        Downloads
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
-                        <li class="mx-1 {{ ($page_title == 'Contact Us - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 hover:border-b-2 hover:border-green-600"><a>Contact Us</a></li>
+                        <li class="mx-1 {{ ($page_title == 'Contact Us - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-white hover:border-b-2 hover:border-green-600"><a>Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -181,18 +154,18 @@
                     <div>
                         <h1 class="text-2xl font-bold mb-4">Navigations</h1>
                         <nav class="list-none text-gray-900">
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1">
+                            <li class="py-1">
+                                <a href="{{ route('front') }}" class="hover:text-gray-800 flex items-center py-1">
                                     <span>Home</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1">
+                                <a href="{{ route('about-us') }}" class="hover:text-gray-800 flex items-center py-1">
                                     <span>About Us</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1">
+                                <a href="{{ route('departments') }}" class="hover:text-gray-800 flex items-center py-1">
                                     <span>Departments</span>
                                 </a>
                             </li>
@@ -203,7 +176,7 @@
                             </li>
                             <li class="py-1 hover:text-gray-800">
                                 <a class="flex items-center py-1">
-                                    <span>Media</span>
+                                    <span>UNICEF</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
@@ -256,5 +229,9 @@
             </div>
         </div>
         <!-- End of Footer  -->
+
+        <!-- Script  -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="{{ asset('js/front.js') }}"></script>
     </body>
 </html>
