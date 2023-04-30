@@ -18,7 +18,7 @@
     <!-- Body Contents  -->
     <div id="body-content" class="pt-8 pb-5 text-justify">
         <!-- About Us  -->
-        <div class="lg:mx-24 mx-8 p-8 mb-12 bg-gray-100">
+        <div class="lg:mx-24 mx-8 p-8 mb-12 bg-gray-100 shadow rounded-lg">
             <div class="my-auto">
                 <div class="py-3">
                     <p>
@@ -35,7 +35,7 @@
         </div>
         <!-- Principal Officers  -->
         <div class="bg-white mt-4 py-8">
-            <div class="text-center text-2xl lg:text-4xl font-semibold py-4 mb-5">Principal Officers</div>
+            <div class="text-center text-2xl lg:text-4xl font-semibold py-4 mb-5 text-green-700">Principal Officers</div>
             <div class="lg:px-24 px-8 mx-auto pb-8 items-center">
                 <div class="text-center">
                     <img class="w-64 mx-auto rounded-full my-4" src="{{ asset('images/image-1.jpg') }}" alt="Prof. Bulama Kagu Photo">

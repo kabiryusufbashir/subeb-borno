@@ -108,11 +108,15 @@
                             </a>
                         </li>
                         <li class="mx-1 {{ ($page_title == 'UNICEF - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-white dropdown relative hover:border-b-2 hover:border-green-600">
-                            <a class="flex" >
+                            <a class="flex">
                                 UNICEF
                             </a>
                         </li>
-                        <li class="mx-1 {{ ($page_title == 'Contact Us - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-white hover:border-b-2 hover:border-green-600"><a>Contact Us</a></li>
+                        <li class="mx-1 {{ ($page_title == 'Contact Us - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-white hover:border-b-2 hover:border-green-600">
+                            <a href="{{ route('contact-us') }}" class="flex">
+                                Contact Us
+                            </a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -152,7 +156,7 @@
                 </div>
                 <div class="col-span-1">
                     <div>
-                        <h1 class="text-2xl font-bold mb-4">Navigations</h1>
+                        <h1 class="text-2xl font-bold mb-4 text-green-700">Navigations</h1>
                         <nav class="list-none text-gray-900">
                             <li class="py-1">
                                 <a href="{{ route('front') }}" class="hover:text-gray-800 flex items-center py-1">
@@ -180,7 +184,7 @@
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1">
+                                <a href="{{ route('contact-us') }}" class="flex items-center py-1">
                                     <span>Contact Us</span>
                                 </a>
                             </li>
@@ -189,7 +193,7 @@
                 </div>
                 <div class="col-span-1">    
                     <div>
-                        <h1 class="text-2xl font-bold mb-4">Contact Us</h1>
+                        <h1 class="text-2xl font-bold mb-4 text-green-700">Contact Us</h1>
                         <div class="my-2">
                             P.M.B 1233, No 1 Jos Road Maiduguri Borno State 
                         </div>

@@ -20,4 +20,9 @@ class HomeController extends Controller
         $page_title = 'Departments - Borno SUBEB';
         return view('departments', compact('page_title'));    
     }
+    
+    public function contactUs(){
+        $page_title = 'Contact Us - Borno SUBEB';
+        return view('contact-us', compact('page_title'));    
+    }
 }

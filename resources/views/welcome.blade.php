@@ -10,7 +10,7 @@
         @include('layout.banner')
     </div>
     <!-- Body Contents  -->
-    <div id="body-content" class="pt-8 pb-5 text-justify">
+    <div id="body-content" class="pb-5 text-justify">
         <!-- Title  -->
         <div class="bg-white py-8">
             <!-- Logo  -->
@@ -18,14 +18,14 @@
                 <img src="{{ asset('images/logo.png') }}" class="mx-auto w-32"> 
             </div>
             <!-- Slogan  -->
-            <div class="text-center text-4xl py-8">
+            <div class="text-center text-4xl py-8 text-green-700">
                 Borno State Universal Basic Education Board
             </div>
         </div>
         <!-- Our Value  -->
         <div class="lg:px-24 px-8 mx-auto py-8 mb-12 lg:grid grid-cols-2 gap-6 bg-gray-100">
             <div class="my-auto">
-                <div class="text-xl lg:text-2xl py-3 font-semibold">Quality Education</div>
+                <div class="text-xl lg:text-2xl py-3 font-semibold text-green-700">Quality Education</div>
                 <div class="py-3">
                     <p>
                         Quality education is the cornerstone of a thriving society, and it plays a pivotal role in shaping the future of individuals and communities. Borno State Universal Basic Education Board is built on the principles of equity, inclusivity, and excellence.
@@ -44,7 +44,7 @@
                 <img src="{{ asset('images/competent-teachers.jpg') }}" alt="Competent Teachers">
             </div>
             <div class="my-auto">
-                <div class="text-xl lg:text-2xl py-3 font-semibold">Competent and Committed Teachers</div>
+                <div class="text-xl lg:text-2xl py-3 font-semibold text-green-700">Competent and Committed Teachers</div>
                 <div class="py-3">
                     <p>
                         Competent and committed teachers are the backbone of a successful education system. These educators possess a combination of knowledge, skills, and dedication that greatly impact students' learning outcomes and overall development.

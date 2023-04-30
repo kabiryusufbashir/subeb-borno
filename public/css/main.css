@@ -228,6 +228,13 @@ nav ul ul ul li {
     height: 100vh;
 }
 
+#contactUsBornoSubeb{
+    background-image: url("../images/bg-7.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 .firstCaptionContent{
     font-size: 280%;
     padding-top: 5%;
