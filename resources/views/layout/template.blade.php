@@ -21,22 +21,22 @@
             </div>
             <div class="flex items-center">
                 <span class="ml-2">
-                    <a class="flex items-center py-1" target="_blank" href="#">
+                    <a class="flex items-center py-1" target="_blank">
                         <span><i class="fa-brands fa-facebook text-xl"></i></span>
                     </a>
                 </span>
                 <span class="ml-2">
-                    <a class="flex items-center py-1" target="_blank" href="#">
+                    <a class="flex items-center py-1" target="_blank">
                         <span><i class="fa-brands fa-twitter text-xl"></i></span>
                     </a>
                 </span>
                 <span class="ml-2">
-                    <a class="flex items-center py-1" target="_blank" href="#">
+                    <a class="flex items-center py-1" target="_blank">
                         <span><i class="fa-brands fa-linkedin text-xl"></i></span>
                     </a>
                 </span>
                 <span class="ml-2">
-                    <a class="flex items-center py-1" target="_blank" href="#">
+                    <a class="flex items-center py-1" target="_blank">
                         <span><i class="fa-brands fa-instagram text-xl"></i></span>
                     </a>
                 </span>
@@ -69,63 +69,77 @@
                                 About Us
                             </a>
                         </li>
-                        <li class="mx-1 {{ ($page_title == 'Our Services - Police HMO - Promoting Excellent Healthcare') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
-                            <a class="flex" href="#">
+                        <li class="mx-1 {{ ($page_title == 'Departments - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
+                            <a class="flex" href="{{ route('departments') }}">
                                 Departments
                             </a>
                             <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
                                 <li>
-                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                        Sensitization
+                                    <a href="/departments#directorateOfSchoolServices" class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
+                                        School Services
                                     </a>
                                 </li>
+                                <li>
+                                    <a href="/departments#directorateOfQualityAssurance" class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
+                                        Quality Assurance
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/departments#directorateOfFinanceAndAccounts" class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
+                                        Finance and Accounts
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/departments#directorateOfPlanningResearchAndStatistics" class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
+                                        Planning Research and Statistics
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/departments#directorateOfSocialMobilization" class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
+                                        Social Mobilization
+                                    </a>
+                                </li>
+                                
                             </ul>
                         </li>
-                        <li class="mx-1 {{ ($page_title == 'Our Services - Police HMO - Promoting Excellent Healthcare') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
-                            <a class="flex" href="#" >
+                        <li class="mx-1 {{ ($page_title == 'Reports - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
+                            <a class="flex" >
                                 Reports
                             </a>
-                            <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
-                                <li>
-                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                        Sensitization
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
-                        <li class="mx-1 {{ ($page_title == 'media') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
-                            <a class="flex" href="#" >
+                        <li class="mx-1 {{ ($page_title == 'Media - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
+                            <a class="flex" >
                                 Media
                             </a>
                             <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
                                 <li>
-                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
                                         News
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
                                         Gallery
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
                                         Publications
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
                                         Testimonials
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
                                         Downloads
                                     </a>
                                 </li>
                             </ul>
                         </li>
-                        <li class="mx-1 {{ ($page_title == 'Contact Us - Police HMO - Promoting Excellent Healthcare') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 hover:border-b-2 hover:border-green-600"><a href="#">Contact Us</a></li>
+                        <li class="mx-1 {{ ($page_title == 'Contact Us - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 hover:border-b-2 hover:border-green-600"><a>Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -168,32 +182,32 @@
                         <h1 class="text-2xl font-bold mb-4">Navigations</h1>
                         <nav class="list-none text-gray-900">
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
+                                <a class="flex items-center py-1">
                                     <span>Home</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
+                                <a class="flex items-center py-1">
                                     <span>About Us</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
+                                <a class="flex items-center py-1">
                                     <span>Departments</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
+                                <a class="flex items-center py-1">
                                     <span>Reports</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
+                                <a class="flex items-center py-1">
                                     <span>Media</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
+                                <a class="flex items-center py-1">
                                     <span>Contact Us</span>
                                 </a>
                             </li>
@@ -211,22 +225,22 @@
                         </div>
                         <nav class="list-none text-gray-900 flex">
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
+                                <a class="flex items-center py-1">
                                     <span><i class="fa-brands fa-facebook text-xl"></i></span> &nbsp;&nbsp;
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
+                                <a class="flex items-center py-1">
                                     <span><i class="fa-brands fa-twitter text-xl"></i></span> &nbsp;&nbsp;
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
+                                <a class="flex items-center py-1">
                                     <span><i class="fa-brands fa-linkedin text-xl"></i></span> &nbsp;&nbsp;
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
+                                <a class="flex items-center py-1">
                                     <span><i class="fa-brands fa-instagram text-xl"></i></span> &nbsp;&nbsp;
                                 </a>
                             </li>

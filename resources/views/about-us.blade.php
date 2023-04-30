@@ -10,12 +10,12 @@
         <!-- Title  -->
         <div class="bg-white py-8">
             <!-- Slogan  -->
-            <div class="text-center text-2xl lg:text-5xl font-semibold py-4 mb-5 mt-20">
+            <div class="text-center text-2xl lg:text-4xl font-semibold py-4 mb-5 mt-20">
                 About Borno <br> State Universal Basic Education Board
             </div>
         </div>
         <!-- About Us  -->
-        <div class="lg:px-24 px-8 mx-auto py-8 mb-12 bg-gray-100">
+        <div class="lg:mx-24 mx-8 p-8 mb-12 bg-gray-100">
             <div class="my-auto">
                 <div class="py-3">
                     <p>
