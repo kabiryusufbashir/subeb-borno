@@ -21,6 +21,11 @@ class HomeController extends Controller
         return view('departments', compact('page_title'));    
     }
     
+    public function besda(){
+        $page_title = 'BESDA - Borno SUBEB';
+        return view('besda', compact('page_title'));    
+    }
+    
     public function contactUs(){
         $page_title = 'Contact Us - Borno SUBEB';
         return view('contact-us', compact('page_title'));    

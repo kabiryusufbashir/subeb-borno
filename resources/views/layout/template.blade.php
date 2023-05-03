@@ -112,6 +112,28 @@
                                     Reports
                                 </a>
                             </li>
+                            <li class="mx-1 {{ ($page_title == 'BESDA - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-white dropdown relative hover:border-b-2 hover:border-green-600">
+                                <a class="flex" href="{{ route('besda') }}">
+                                    BESDA
+                                </a>
+                                <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
+                                    <li>
+                                        <a href="/besda#resultAreaOne" class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
+                                            Result Area One
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/besda#resultAreaTwo" class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
+                                            Result Area Two
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/besda#resultAreaThree" class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
+                                            Result Area Three
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
                             <li class="mx-1 {{ ($page_title == 'UNICEF - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-white dropdown relative hover:border-b-2 hover:border-green-600">
                                 <a class="flex">
                                     UNICEF

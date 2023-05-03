@@ -228,6 +228,13 @@ nav ul ul ul li {
     height: 100vh;
 }
 
+#besdaBornoSubeb{
+    background-image: url("../images/bg-9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 #contactUsBornoSubeb{
     background-image: url("../images/bg-7.jpg");
     background-size: cover;
@@ -290,34 +297,6 @@ nav ul ul ul li {
         position: relative;
         top: 450px;
         right: 80px;
-    }
-
-    #firstCaption{
-        background-image: url("../images/bg-1.jpg");
-    }
-    
-    #secondCaption{
-        background-image: url("../images/bg-8.jpg");
-    }
-    
-    #thirdCaption{
-        background-image: url("../images/bg-4.jpg");
-    }
-    
-    #fourthCaption{
-        background-image: url("../images/bg-3.jpg");
-    }
-    
-    #aboutBornoSubeb{
-        background-image: url("../images/bg-2.jpg");
-    }
-    
-    #departmentsBornoSubeb{
-        background-image: url("../images/bg-6.jpg");
-    }
-    
-    #contactUsBornoSubeb{
-        background-image: url("../images/bg-7.jpg");
     }
     
     #container-one{
