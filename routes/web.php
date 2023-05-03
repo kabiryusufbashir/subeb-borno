@@ -19,4 +19,5 @@ Route::get('/', [HomeController::class, 'index'])->name('front');
 Route::get('/about-us', [HomeController::class, 'aboutUs'])->name('about-us');
 Route::get('/departments', [HomeController::class, 'departments'])->name('departments');
 Route::get('/besda', [HomeController::class, 'besda'])->name('besda');
+Route::get('/unicef', [HomeController::class, 'unicef'])->name('unicef');
 Route::get('/contact-us', [HomeController::class, 'contactUs'])->name('contact-us');

@@ -135,7 +135,7 @@
                                 </ul>
                             </li>
                             <li class="mx-1 {{ ($page_title == 'UNICEF - Borno SUBEB') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-white dropdown relative hover:border-b-2 hover:border-green-600">
-                                <a class="flex">
+                                <a href="{{ route('unicef') }}" class="flex">
                                     UNICEF
                                 </a>
                             </li>
@@ -160,7 +160,7 @@
             </div>
         </div>
         <!-- Mobile Nav -->
-        <div id="navMobile" class="w-full fixed h-screen z-20 hidden py-8 top-16 bg-white">
+        <div id="navMobile" class="w-full fixed h-screen z-20 hidden py-8 bg-white">
             <div class="list-none p-2 text-sm border-t bg-white pt-20">
                 <li class="py-3 px-8">
                     <a href="{{ route('front') }}" class="flex justify-between items-center">
@@ -189,6 +189,22 @@
                 <li class="py-3 px-8">
                     <a href="#" class="flex justify-between items-center">
                         <span>Reports</span>
+                        &nbsp;&nbsp;
+                        <span><i class="fa-solid fa-users text-2xl"></i></span>
+                    </a>
+                </li>
+                <hr>
+                <li class="py-3 px-8">
+                    <a href="{{ route('besda') }}" class="flex justify-between items-center">
+                        <span>BESDA</span>
+                        &nbsp;&nbsp;
+                        <span><i class="fa-solid fa-users text-2xl"></i></span>
+                    </a>
+                </li>
+                <hr>
+                <li class="py-3 px-8">
+                    <a href="{{ route('unicef') }}" class="flex justify-between items-center">
+                        <span>UNICEF</span>
                         &nbsp;&nbsp;
                         <span><i class="fa-solid fa-users text-2xl"></i></span>
                     </a>
@@ -252,7 +268,12 @@
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1">
+                                <a href="{{ route('besda') }}" class="flex items-center py-1">
+                                    <span>BESDA</span>
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a href="{{ route('unicef') }}" class="flex items-center py-1">
                                     <span>UNICEF</span>
                                 </a>
                             </li>
