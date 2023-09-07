@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.ico')}}"/>
         <!-- CSS -->
+        <link rel="stylesheet" href="{{ asset('build/assets/app-d07431ff.css') }}">
         <link href="{{ asset('css/main.css') }}" rel="stylesheet">
         <link href="{{ asset('css/production.css') }}" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -330,6 +331,8 @@
 
         <!-- Script  -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        @vite('resources/js/app.js')
+        <script src="{{ asset('build/assets/app-9c47871d.js') }}"></script>    
         <script src="{{ asset('js/front.js') }}"></script>
     </body>
 </html>
