@@ -46,7 +46,7 @@
                                 <i class="fa-solid fa-envelope text-green-700"></i>
                             </div>
                             <div>
-                                info@bornosubeb.com
+                                info@bosubeb.ng
                             </div>
                         </div>
                     </div>

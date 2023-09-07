@@ -25,7 +25,7 @@
                 <div class="flex">
                     <span class="hidden ml-2 lg:block">
                         <span><i class="fa-solid fa-envelope bg-white py-2 px-3 rounded-full text-green-700 lg:text-xl text-sm"></i></span>
-                        <span class="ml-1"><a href="mailto:info@bornosubeb.com">info@bornosubeb.com</a></span>
+                        <span class="ml-1"><a href="mailto:info@bosubeb.ng">info@bosubeb.ng</a></span>
                     </span>
                 </div>
                 <div class="flex items-center">
@@ -293,7 +293,7 @@
                             P.M.B 1233, No 1 Jos Road Maiduguri Borno State 
                         </div>
                         <div class="my-2">
-                            info@bornosubeb.com
+                            info@bosubeb.ng
                         </div>
                         <nav class="list-none text-gray-900 flex">
                             <li class="py-1 hover:text-gray-800">
