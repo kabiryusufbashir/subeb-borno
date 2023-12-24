@@ -30,22 +30,27 @@
                 </div>
                 <div class="flex items-center">
                     <span class="ml-2">
-                        <a class="flex items-center py-1" target="_blank">
+                        <a href="https://web.facebook.com/profile.php?id=61551644289011&mibextid=ZbWKwL&_rdc=1&_rdr" class="flex items-center py-1" target="_blank">
                             <span><i class="fa-brands fa-facebook lg:text-xl text-sm bg-white lg:py-2 py-1 lg:px-3 px-2 rounded-full text-green-700"></i></span>
                         </a>
                     </span>
                     <span class="ml-2">
-                        <a class="flex items-center py-1" target="_blank">
+                        <a href="https://twitter.com/BornoSubeb" class="flex items-center py-1" target="_blank">
                             <span><i class="fa-brands fa-twitter lg:text-xl text-sm bg-white lg:py-2 py-1 lg:px-3 px-2 rounded-full text-green-700"></i></span>
                         </a>
                     </span>
                     <span class="ml-2">
-                        <a class="flex items-center py-1" target="_blank">
+                        <a href="https://www.linkedin.com/in/borno-subeb-75a3562a5/" class="flex items-center py-1" target="_blank">
                             <span><i class="fa-brands fa-linkedin lg:text-xl text-sm bg-white lg:py-2 py-1 lg:px-3 px-2 rounded-full text-green-700"></i></span>
                         </a>
                     </span>
                     <span class="ml-2">
-                        <a class="flex items-center py-1" target="_blank">
+                        <a href="https://www.youtube.com/channel/UCYUaLqY9M8MyRm7I_VhXEQA" class="flex items-center py-1" target="_blank">
+                            <span><i class="fa-brands fa-youtube lg:text-xl text-sm bg-white lg:py-2 py-1 lg:px-3 px-2 rounded-full text-green-700"></i></span>
+                        </a>
+                    </span>
+                    <span class="ml-2">
+                        <a href="https://www.instagram.com/bornosubeb?igsh=ODA1NTc5OTg5Nw%3D%3D" class="flex items-center py-1" target="_blank">
                             <span><i class="fa-brands fa-instagram lg:text-xl text-sm bg-white lg:py-2 py-1 lg:px-3 px-2 rounded-full text-green-700"></i></span>
                         </a>
                     </span>
@@ -283,6 +288,11 @@
                                     <span>Contact Us</span>
                                 </a>
                             </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a href="https://bosubeb.ng:2096/" class="flex items-center py-1">
+                                    <span>Staff Mail</span>
+                                </a>
+                            </li>
                         </nav>
                     </div>
                 </div>
@@ -297,22 +307,27 @@
                         </div>
                         <nav class="list-none text-gray-900 flex">
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1">
+                                <a href="https://web.facebook.com/profile.php?id=61551644289011&mibextid=ZbWKwL&_rdc=1&_rdr" class="flex items-center py-1">
                                     <span><i class="fa-brands fa-facebook text-xl bg-white py-2 px-3 rounded-full text-green-700"></i></span> &nbsp;&nbsp;
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1">
+                                <a href="https://twitter.com/BornoSubeb" class="flex items-center py-1">
                                     <span><i class="fa-brands fa-twitter text-xl bg-white py-2 px-3 rounded-full text-green-700"></i></span> &nbsp;&nbsp;
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1">
+                                <a href="https://www.linkedin.com/in/borno-subeb-75a3562a5/" class="flex items-center py-1">
                                     <span><i class="fa-brands fa-linkedin text-xl bg-white py-2 px-3 rounded-full text-green-700"></i></span> &nbsp;&nbsp;
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1">
+                                <a href="https://www.youtube.com/channel/UCYUaLqY9M8MyRm7I_VhXEQA" class="flex items-center py-1">
+                                    <span><i class="fa-brands fa-youtube text-xl bg-white py-2 px-3 rounded-full text-green-700"></i></span> &nbsp;&nbsp;
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a href="https://www.instagram.com/bornosubeb?igsh=ODA1NTc5OTg5Nw%3D%3D" class="flex items-center py-1">
                                     <span><i class="fa-brands fa-instagram text-xl bg-white py-2 px-3 rounded-full text-green-700"></i></span> &nbsp;&nbsp;
                                 </a>
                             </li>
